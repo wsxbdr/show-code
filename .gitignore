@@ -1,0 +1,5 @@
+# Project exclude paths
+/all/target/
+/design-pattern/target/
+/netty-example/target/
+/netty-in-action/target/
