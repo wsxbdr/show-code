@@ -10,6 +10,7 @@
         <module name="all" />
         <module name="design-pattern" />
         <module name="netty-in-action" />
+        <module name="spring_demo" />
         <module name="netty-example" />
       </profile>
     </annotationProcessing>

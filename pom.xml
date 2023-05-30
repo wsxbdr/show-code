@@ -12,6 +12,7 @@
         <module>netty-example</module>
         <module>design-pattern</module>
         <module>netty-in-action</module>
+        <module>spring_demo</module>
     </modules>
     <packaging>pom</packaging>
 

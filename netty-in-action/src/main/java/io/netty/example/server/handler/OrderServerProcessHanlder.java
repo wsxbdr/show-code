@@ -9,6 +9,7 @@ import io.netty.example.common.RequestMessage;
 import io.netty.example.common.ResponseMessage;
 
 public class OrderServerProcessHanlder extends SimpleChannelInboundHandler<RequestMessage> {
+    @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, RequestMessage requestMessage) throws Exception {
 //        ByteBuf buffer = channelHandlerContext.alloc().buffer();
         Operation operation = requestMessage.getMessageBody();
